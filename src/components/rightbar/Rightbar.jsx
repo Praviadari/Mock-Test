@@ -1,7 +1,7 @@
 import React from "react";
 import { Questions } from "../../dummyData";
-import Qnos from "../qnos/Qnos";
 
+import Qnos from "../qnos/Qnos";
 import "./rightbar.css";
 
 export default function Rightbar() {

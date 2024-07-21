@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function Bottombar() {
   return (
     <div className="absolute inset-x-0 bottom-0">

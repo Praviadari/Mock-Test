@@ -16,10 +16,7 @@ export default function Mainbar() {
           <ArrowLeftIcon style={{ color: "gray" }} />
           <div className="bg-blue-600 text-white w-24 flex justify-around items-center">
             <span className="py-1">Aptitute</span>
-            <BsInfoLg
-              title="Aptitute"
-              className="bg-blue-400 rounded-full "
-            />
+            <BsInfoLg title="Aptitute" className="bg-blue-400 rounded-full " />
           </div>
           <ArrowRightIcon
             style={{ color: "gray" }}
@@ -39,13 +36,11 @@ export default function Mainbar() {
         </div>
       </div>
       <div className="flex flex-row justify-around items-center ml-20">
-        <div>
-          <img
-            className=" object-cover rounded-md w-20 h-20 mr-2"
-            src={naveena}
-            alt="HOla"
-          />
-        </div>
+        <img
+          className=" object-cover rounded-md w-20 h-20 mr-2"
+          src={naveena}
+          alt="HOla"
+        />
         <div className="Details ">
           <div className="rightbarInfoItem flex items-center mb-2.5">
             <span className="rightbarInfoKey mr-4">Name:</span>

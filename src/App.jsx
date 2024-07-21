@@ -1,10 +1,10 @@
 import React from "react";
 import Rightbar from "./components/rightbar/Rightbar";
-import Trivia from "./components/trivia/Trivia";
 import Topbar from "./components/topbar/Topbar";
 import "./App.css";
 import Mainbar from "./components/mainbar/Mainbar";
 import Bottombar from "./components/bottombar/Bottombar";
+import Trivia from "./components/trivia/Trivias";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <div className="main w-9/12 ">
           <Trivia />
         </div>
-          <Rightbar  />
+        <Rightbar />
       </div>
       <Bottombar />
     </div>
