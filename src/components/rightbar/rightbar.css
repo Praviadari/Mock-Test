@@ -1,0 +1,51 @@
+.ans{
+    background: rgb(30, 212, 30);
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 55px;
+    position: relative;
+    width: 40px;
+}
+.ans:before {
+    border-bottom: 20px solid rgb(56, 209, 56);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: -22.1px;
+    width: 40px;
+}
+.ans1{
+    background: rgb(212, 82, 30);
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 55px;
+    position: relative;
+    width: 40px;
+}
+.ans1:before {
+    border-bottom: 20px solid rgb(209, 105, 56);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: -22.1px;
+    width: 40px;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(179, 179, 179);
+}
+.rightbar{
+    flex: 2;
+}
