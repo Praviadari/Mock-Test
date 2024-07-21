@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mock_test/static/css/main.b1f0a297.css",
+    "main.js": "/mock_test/static/js/main.f125e91d.js",
+    "static/media/logo.png": "/mock_test/static/media/logo.11d164bd3c7cdaef7d24.png",
+    "static/media/Naveena.jpg": "/mock_test/static/media/Naveena.12a21d28036ce85df0c3.jpg",
+    "static/media/tcs.png": "/mock_test/static/media/tcs.8fad14b5ea756100c5bd.png",
+    "index.html": "/mock_test/index.html",
+    "main.b1f0a297.css.map": "/mock_test/static/css/main.b1f0a297.css.map",
+    "main.f125e91d.js.map": "/mock_test/static/js/main.f125e91d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1f0a297.css",
+    "static/js/main.f125e91d.js"
+  ]
+}
