@@ -2,7 +2,7 @@ import React from "react";
 import { BsInfoLg } from "react-icons/bs";
 import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
-import naveena from "../../assets/person/Naveena.jpg";
+import praveen from "../../assets/person/pravi.jpeg";
 
 export default function Mainbar() {
   return (
@@ -38,13 +38,13 @@ export default function Mainbar() {
       <div className="flex flex-row justify-around items-center ml-20">
         <img
           className=" object-cover rounded-md w-20 h-20 mr-2"
-          src={naveena}
+          src={praveen}
           alt="HOla"
         />
         <div className="Details ">
           <div className="rightbarInfoItem flex items-center mb-2.5">
             <span className="rightbarInfoKey mr-4">Name:</span>
-            <span className="rightbarInfoValue">Naveena</span>
+            <span className="rightbarInfoValue">Praveen</span>
           </div>
           <div className="rightbarInfoItem flex items-center mb-2.5">
             <span className="rightbarInfoKey mr-2">Roll No:</span>
